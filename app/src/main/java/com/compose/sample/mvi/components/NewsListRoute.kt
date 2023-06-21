@@ -24,8 +24,8 @@ import com.compose.sample.mvi.NewsListViewModel
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.compose.sample.mvi.data.News
 import com.compose.sample.mvi.data.NewsListContract
-import com.compose.sample.mvi.data.CollectInLaunchedEffect
-import com.compose.sample.mvi.data.use
+import com.compose.sample.mvi.ext.CollectInLaunchedEffect
+import com.compose.sample.mvi.ext.use
 import com.compose.sample.mvi.repository.newsList
 
 @Composable

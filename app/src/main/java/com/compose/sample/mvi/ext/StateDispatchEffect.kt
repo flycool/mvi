@@ -1,9 +1,10 @@
-package com.compose.sample.mvi.data
+package com.compose.sample.mvi.ext
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.compose.sample.mvi.data.UnidirectionalViewModel
 import kotlinx.coroutines.flow.SharedFlow
 import kotlinx.coroutines.flow.collectLatest
 
